@@ -4,7 +4,7 @@ This advanced program excels in detecting objects within RGB images. By leveragi
 
 ## Implementation Details
 
-The process begins by taking an RGB image file, followed by the input of object images featuring a distinctive lime green (0, 255, 0) background to delineate the objects. The program harnesses the power of the HSV hue channel and YUV U and V channels, employing histogram comparison techniques to assess the likelihood of object presence. Subsequently, the number of islands cluster algorithm is applied to identify all potential occurrences of the target object. For each cluster, a meticulous histogram comparison is executed, culminating in the drawing of a conspicuous red box on the image for enhanced visibility.
+The process begins by taking an 680 by 540 RGB image file, followed by the input of object images featuring a distinctive lime green (0, 255, 0) background to delineate the objects. The program harnesses the power of the HSV hue channel and YUV U and V channels, employing histogram comparison techniques to assess the likelihood of object presence. Subsequently, the number of islands cluster algorithm is applied to identify all potential occurrences of the target object. For each cluster, a meticulous histogram comparison is executed, culminating in the drawing of a conspicuous red box on the image for enhanced visibility.
 
 ## Prerequisites
 
